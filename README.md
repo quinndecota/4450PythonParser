@@ -19,9 +19,7 @@ The goal is to recognize specific Python constructs and generate a parse tree fo
 
 ## Team Members
 
-- **NAME 1** – ROLE / RESPONSIBILITY (e.g., Grammar design, expressions)
-- **NAME 2** – ROLE / RESPONSIBILITY (e.g., Control structures, loops)
-- **NAME 3** – ROLE / RESPONSIBILITY (e.g., Comments, testing, demo video)
+- Quinn DeCota
 
 ---
 
