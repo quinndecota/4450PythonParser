@@ -79,17 +79,17 @@ Install Python dependencies :
 
 ```bash
 pip install antlr4-python3-runtime
-
+```
 * Setup Instructions*
 1. Generate the Parser (if needed)
 
 If you modify python.g4, regenerate Python lexer + parser files:
-
+```
 java -jar antlr-4.13.x-complete.jar -Dlanguage=Python3 python.g4
-
+```
 
 This produces:
-
+```
 pythonLexer.py
 
 pythonParser.py
@@ -97,20 +97,25 @@ pythonParser.py
 pythonParserVisitor.py
 
 pythonParserListener.py
-
+```
 * How to Run the Parser*
 
 Place a Python file you want to parse in the repo, for example:
 
 test.py
+```
 a = 10
 if a < 20:
     a += 1
-
+```
 
 Run the parser:
-
+```
 python main.py test.py
-
+```
 
 The output will be the parse tree for the program.
+
+
+DEMO VIDEO:
+https://www.youtube.com/watch?v=vZE0j_WCRvd
